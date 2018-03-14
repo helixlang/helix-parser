@@ -1,0 +1,8 @@
+
+/*
+import module	// Semantically the same as import module as module
+					
+let output = { 4' 0xFFs, { 0xFF, 0xFE, 0xFC, 0xFA } };
+*/
+
+0xFF +0xFF -0xFF 0 +0 -0

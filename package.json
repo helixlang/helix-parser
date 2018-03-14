@@ -1,0 +1,26 @@
+{
+  "name": "helix-parser",
+  "version": "1.0.0",
+  "description": "Language parser for Helix",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "pegjs --cache --output index.js src/helix.pegjs",
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helixlang/helix-parser.git"
+  },
+  "author": "Bryon Vandiver",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/helixlang/helix-parser/issues"
+  },
+  "homepage": "https://github.com/helixlang/helix-parser#readme",
+  "devDependencies": {
+    "pegjs": "^0.10.0"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.26"
+  }
+}
